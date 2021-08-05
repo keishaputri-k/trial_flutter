@@ -60,12 +60,14 @@ flutter:
   # "family" key with the font family name, and a "fonts" key with a
   # list giving the asset and other descriptors for the font. For
   # example:
+  assets:
+    - assets/img/
   fonts:
     - family: Quicksand
     - fonts:
-      - asset: font/Quicksand-Regular.ttf
-      - asset: font/Quicksand-Bold.ttf
-      - asset: font/Quicksand-Lightttf
+      - asset: assets/font/Quicksand-Regular.ttf
+      - asset: assets/font/Quicksand-Bold.ttf
+      - asset: assets/font/Quicksand-Lightttf
   #   - family: Trajan Pro
   #     fonts:
   #       - asset: fonts/TrajanPro.ttf
